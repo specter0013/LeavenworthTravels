@@ -9,7 +9,7 @@
   --color-secondary: #9b2226;  /* cranberry red */
   --color-accent:    #c98a3d;  /* warm amber */
   --color-accent-dark: #a8702a; /* amber darkened for text-size uses */
-  --color-bg:        #faf5ec;  /* warm cream */
+  --color-bg:        #e9dcc4;  /* warm cream */
   --color-text:      #3a2f28;  /* warm dark brown */
   --color-surface:   #fffdf8;
 
@@ -84,6 +84,16 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   padding: 0.5rem;
 }
 .photo--card { aspect-ratio: 16 / 10; }
+.photo--image {
+  padding: 0;
+  overflow: hidden;
+}
+.photo--image > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .photo--hero { aspect-ratio: 21 / 9; font-size: 0.9rem; }
 .photo--lights { background: linear-gradient(135deg, #2f4a3c, #9b2226); }
 .photo--snow   { background: linear-gradient(135deg, #4a6a5a, #8aa5b1); }
@@ -179,6 +189,11 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 }
 @media (min-width: 48rem) { .grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 64rem) { .grid { grid-template-columns: repeat(3, 1fr); } }
+.grid--listings { grid-template-columns: minmax(0, 1fr); }
+.grid--listings > .listing-card {
+  width: 70%;
+  justify-self: center;
+}
 
 .listing-card,
 .category-card {
