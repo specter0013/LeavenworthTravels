@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where to Eat in Leavenworth WA — German Halls, Cafés &amp; More | Leavenworth Winter Guide</title>
+  <meta name="description" content="Find a place to eat in Leavenworth, Washington: German restaurants, cafés, and family favorites with addresses, phone numbers, and links — plus festival-weekend dining advice.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-name" href="./index.html">Leavenworth Winter Guide</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="./christmas-festival.html">Christmas Festival</a></li>
+          <li><a href="./ski-resort.html">Ski Resort</a></li>
+          <li><a href="./stay.html">Places to Stay</a></li>
+          <li><a href="./eat.html" aria-current="page">Places to Eat</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1>Places to Eat</h1>
+      <p>German halls, cafés, and family favorites in Leavenworth. Every listing
+         has an address, phone number, and a link to the restaurant's site.</p>
+
+      <div class="note">
+        <strong>Festival weekends:</strong> book dinner ahead — tables on Front
+        Street fill fast after the lighting ceremony.
+      </div>
+
+      <div class="chips" role="group" aria-label="Filter places to eat">
+        <button class="chip is-active" data-filter="all">All</button>
+        <button class="chip" data-filter="german">German</button>
+        <button class="chip" data-filter="cafe">Cafés</button>
+        <button class="chip" data-filter="fine-dining">Fine dining</button>
+        <button class="chip" data-filter="family-friendly">Family-friendly</button>
+      </div>
+
+      <label class="sr-only" for="eat-search">Search places to eat</label>
+      <input class="search-input" id="eat-search" type="search"
+             placeholder="Search food…">
+
+      <div class="grid">
+        <article class="listing-card" data-tags="german,family-friendly">
+          <div class="photo photo--card photo--lights" role="img"
+               aria-label="Placeholder photo: sausages and pretzels on a wooden table">
+            <span>Photo: brats &amp; pretzels</span>
+          </div>
+          <div class="listing-body">
+            <span class="badge">Holiday pick</span>
+            <h3>München Haus</h3>
+            <p class="listing-category">German &middot; Front Street</p>
+            <p class="listing-desc">Bavarian sausage house and beer garden on Front
+               Street — brats, giant pretzels, and a mustard bar.</p>
+            <p class="listing-holiday">🎄 Fire pits and glühwein on festival weekends</p>
+            <address>
+              709 Front St, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550101">(509) 555-0101</a>
+            </address>
+            <a class="listing-link" href="https://www.munichaus.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+
+        <article class="listing-card" data-tags="german,family-friendly">
+          <div class="photo photo--card photo--warm" role="img"
+               aria-label="Placeholder photo: a plate of schnitzel with potatoes">
+            <span>Photo: schnitzel plate</span>
+          </div>
+          <div class="listing-body">
+            <h3>Andreas Keller Restaurant</h3>
+            <p class="listing-category">German &middot; Front Street</p>
+            <p class="listing-desc">Cozy stone-walled cellar restaurant serving
+               schnitzel, sausages, and German beer.</p>
+            <p class="listing-holiday">🎄 Accordion music on festival weekends</p>
+            <address>
+              829 Front St, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550107">(509) 555-0107</a>
+            </address>
+            <a class="listing-link" href="https://www.andreaskeller.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+
+        <article class="listing-card" data-tags="cafe">
+          <div class="photo photo--card photo--warm" role="img"
+               aria-label="Placeholder photo: a latte and pastry on a café table">
+            <span>Photo: latte &amp; pastry</span>
+          </div>
+          <div class="listing-body">
+            <h3>J5 Coffee</h3>
+            <p class="listing-category">Café &middot; Front Street</p>
+            <p class="listing-desc">Local coffeehouse with espresso drinks, breakfast
+               burritos, and house-baked goods.</p>
+            <address>
+              912 Commercial St, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550108">(509) 555-0108</a>
+            </address>
+            <a class="listing-link" href="https://www.j5coffee.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+
+        <article class="listing-card" data-tags="fine-dining">
+          <div class="photo photo--card photo--snow" role="img"
+               aria-label="Placeholder photo: an elegantly plated dinner dish">
+            <span>Photo: plated dinner</span>
+          </div>
+          <div class="listing-body">
+            <h3>Café Mozart</h3>
+            <p class="listing-category">Fine dining &middot; Front Street</p>
+            <p class="listing-desc">Austrian-inspired dining room with schnitzel,
+               fresh fish, and a deep dessert case.</p>
+            <address>
+              830 Front St, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550109">(509) 555-0109</a>
+            </address>
+            <a class="listing-link" href="https://www.cafemozartleavenworth.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+
+        <article class="listing-card" data-tags="german,family-friendly">
+          <div class="photo photo--card photo--warm" role="img"
+               aria-label="Placeholder photo: a beer stein beside a hearty plate of food">
+            <span>Photo: stein &amp; plate</span>
+          </div>
+          <div class="listing-body">
+            <h3>Ludwig's Hanburger Haus</h3>
+            <p class="listing-category">German &middot; Front Street</p>
+            <p class="listing-desc">Casual spot for burgers, bratwurst, and shakes —
+               a good pick with kids in tow.</p>
+            <address>
+              821 Front St, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550110">(509) 555-0110</a>
+            </address>
+            <a class="listing-link" href="https://www.ludwigshamburgerhaus.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+
+        <article class="listing-card" data-tags="cafe,family-friendly">
+          <div class="photo photo--card photo--lights" role="img"
+               aria-label="Placeholder photo: soup and bread on a rustic table">
+            <span>Photo: soup &amp; bread</span>
+          </div>
+          <div class="listing-body">
+            <h3>South Leavenworth Kitchen</h3>
+            <p class="listing-category">Café &middot; South of downtown</p>
+            <p class="listing-desc">Homey diner known for big breakfasts, soups, and
+               pies — a local favorite away from the crowds.</p>
+            <address>
+              9493 Old Highway 2, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550111">(509) 555-0111</a>
+            </address>
+            <a class="listing-link" href="https://www.southleavenworthkitchen.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="no-results" hidden>No restaurants match your search. Try a
+         different word, or clear the filters.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="./christmas-festival.html">Christmas Festival</a></li>
+          <li><a href="./ski-resort.html">Ski Resort</a></li>
+          <li><a href="./stay.html">Places to Stay</a></li>
+          <li><a href="./eat.html">Places to Eat</a></li>
+        </ul>
+      </nav>
+      <p>Last updated: October 2026 &middot; Prototype — verify all listings before launch.</p>
+    </div>
+  </footer>
+</body>
+</html>

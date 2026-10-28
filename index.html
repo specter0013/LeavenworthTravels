@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leavenworth Winter Guide — Stays, Food &amp; Holiday Fun</title>
+  <meta name="description" content="A cozy local guide to Leavenworth, Washington: where to stay, where to eat, the Christmas Lighting Festival, and Stevens Pass skiing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-name" href="./index.html">Leavenworth Winter Guide</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="./christmas-festival.html">Christmas Festival</a></li>
+          <li><a href="./ski-resort.html">Ski Resort</a></li>
+          <li><a href="./stay.html">Places to Stay</a></li>
+          <li><a href="./eat.html">Places to Eat</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="photo photo--hero photo--lights" role="img"
+             aria-label="Placeholder photo: Front Street glowing with holiday lights">
+          <span>Photo: Front Street glowing with holiday lights</span>
+        </div>
+        <h1>Find your Leavenworth.</h1>
+        <p class="hero-sub">A cozy local guide to where to stay, where to eat, and
+           everything holiday — festival lights, sleigh bells, and fresh snow.</p>
+        <div class="cta-row">
+          <a class="btn btn--primary" href="./stay.html">Places to Stay</a>
+          <a class="btn btn--secondary" href="./christmas-festival.html">Christmas Festival</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" aria-labelledby="browse-heading">
+      <h2 id="browse-heading">Start here</h2>
+      <div class="grid">
+        <a class="category-card" href="./christmas-festival.html">
+          <div class="photo photo--card photo--lights" role="img"
+               aria-label="Placeholder photo: Christmas lights on Front Street">
+            <span>Photo: festival lights</span>
+          </div>
+          <div class="category-body">
+            <h3>Christmas Festival</h3>
+            <p>Dates, the lighting ceremony, and weekend tips.</p>
+          </div>
+        </a>
+        <a class="category-card" href="./ski-resort.html">
+          <div class="photo photo--card photo--snow" role="img"
+               aria-label="Placeholder photo: skiers on a snowy slope">
+            <span>Photo: Stevens Pass slopes</span>
+          </div>
+          <div class="category-body">
+            <h3>Ski Resort</h3>
+            <p>Stevens Pass — terrain, tickets, and the drive over US-2.</p>
+          </div>
+        </a>
+        <a class="category-card" href="./stay.html">
+          <div class="photo photo--card photo--warm" role="img"
+               aria-label="Placeholder photo: a cozy lodge exterior at dusk">
+            <span>Photo: cozy lodges &amp; cabins</span>
+          </div>
+          <div class="category-body">
+            <h3>Places to Stay</h3>
+            <p>Hotels, cabins, and inns — searchable and filterable.</p>
+          </div>
+        </a>
+        <a class="category-card" href="./eat.html">
+          <div class="photo photo--card photo--warm" role="img"
+               aria-label="Placeholder photo: a plate of Bavarian food">
+            <span>Photo: schnitzel, brats &amp; cocoa</span>
+          </div>
+          <div class="category-body">
+            <h3>Places to Eat</h3>
+            <p>German halls, cafés, and family favorites.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="container" aria-labelledby="spotlight-heading">
+      <h2 id="spotlight-heading">Holiday picks</h2>
+      <div class="grid">
+        <article class="listing-card" data-tags="stay">
+          <div class="photo photo--card photo--warm" role="img"
+               aria-label="Placeholder photo: lodge exterior with firelight in the windows">
+            <span>Photo: Bavarian Lodge at dusk</span>
+          </div>
+          <div class="listing-body">
+            <span class="badge">Holiday pick</span>
+            <h3>Bavarian Lodge</h3>
+            <p class="listing-category">Hotel &middot; Downtown</p>
+            <p class="listing-desc">Lodge-style rooms a short walk from Front Street,
+               with fireplaces and a generous breakfast.</p>
+            <p class="listing-holiday">🎄 Walk to the lights — no parking hassle</p>
+            <address>
+              1208 US Hwy 2, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550100">(509) 555-0100</a>
+            </address>
+            <a class="listing-link" href="https://www.bavarianlodge.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+        <article class="listing-card" data-tags="eat">
+          <div class="photo photo--card photo--lights" role="img"
+               aria-label="Placeholder photo: sausages and pretzels on a wooden table">
+            <span>Photo: brats &amp; pretzels</span>
+          </div>
+          <div class="listing-body">
+            <span class="badge">Holiday pick</span>
+            <h3>München Haus</h3>
+            <p class="listing-category">German &middot; Front Street</p>
+            <p class="listing-desc">Bavarian sausage house and beer garden on Front
+               Street — brats, giant pretzels, and a mustard bar.</p>
+            <p class="listing-holiday">🎄 Fire pits and glühwein on festival weekends</p>
+            <address>
+              709 Front St, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550101">(509) 555-0101</a>
+            </address>
+            <a class="listing-link" href="https://www.munichaus.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+        <article class="listing-card" data-tags="stay">
+          <div class="photo photo--card photo--snow" role="img"
+               aria-label="Placeholder photo: resort buildings among evergreens">
+            <span>Photo: Icicle Village Resort</span>
+          </div>
+          <div class="listing-body">
+            <span class="badge">Holiday pick</span>
+            <h3>Icicle Village Resort</h3>
+            <p class="listing-category">Hotel &middot; US Hwy 2</p>
+            <p class="listing-desc">Full-service resort with rooms, suites, a pool,
+               and a restaurant on site — close to everything.</p>
+            <p class="listing-holiday">🎄 Books out early on festival weekends</p>
+            <address>
+              505 US Hwy 2, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550102">(509) 555-0102</a>
+            </address>
+            <a class="listing-link" href="https://www.iciclevillageresort.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="festival-banner">
+    <div class="container">
+      <p>🎄 Christmas Lighting Festival — three weekends in December.
+         <a href="./christmas-festival.html">See dates &amp; tips</a></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="./christmas-festival.html">Christmas Festival</a></li>
+          <li><a href="./ski-resort.html">Ski Resort</a></li>
+          <li><a href="./stay.html">Places to Stay</a></li>
+          <li><a href="./eat.html">Places to Eat</a></li>
+        </ul>
+      </nav>
+      <p>Last updated: October 2026 &middot; Prototype — verify all listings before launch.</p>
+    </div>
+  </footer>
+</body>
+</html>

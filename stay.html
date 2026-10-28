@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where to Stay in Leavenworth WA — Hotels, Cabins &amp; Inns | Leavenworth Winter Guide</title>
+  <meta name="description" content="Find a place to stay in Leavenworth, Washington: hotels, cabins, and inns with addresses, phone numbers, and booking links — plus festival-weekend booking advice.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-name" href="./index.html">Leavenworth Winter Guide</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="./christmas-festival.html">Christmas Festival</a></li>
+          <li><a href="./ski-resort.html">Ski Resort</a></li>
+          <li><a href="./stay.html" aria-current="page">Places to Stay</a></li>
+          <li><a href="./eat.html">Places to Eat</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1>Places to Stay</h1>
+      <p>Hotels, cabins, and inns in and around Leavenworth. Every listing has an
+         address, phone number, and a link to book.</p>
+
+      <div class="note">
+        <strong>Book early:</strong> December festival weekends sell out 2–3 months
+        ahead. Midweek stays are easier to find and quieter.
+      </div>
+
+      <div class="chips" role="group" aria-label="Filter places to stay">
+        <button class="chip is-active" data-filter="all">All</button>
+        <button class="chip" data-filter="hotel">Hotels</button>
+        <button class="chip" data-filter="cabin">Cabins</button>
+        <button class="chip" data-filter="bnb">B&amp;Bs</button>
+        <button class="chip" data-filter="pet-friendly">Pet-friendly</button>
+      </div>
+
+      <label class="sr-only" for="stay-search">Search places to stay</label>
+      <input class="search-input" id="stay-search" type="search"
+             placeholder="Search stays…">
+
+      <div class="grid">
+        <article class="listing-card" data-tags="hotel,pet-friendly">
+          <div class="photo photo--card photo--warm" role="img"
+               aria-label="Placeholder photo: lodge exterior with firelight in the windows">
+            <span>Photo: Bavarian Lodge at dusk</span>
+          </div>
+          <div class="listing-body">
+            <span class="badge">Holiday pick</span>
+            <h3>Bavarian Lodge</h3>
+            <p class="listing-category">Hotel &middot; Downtown</p>
+            <p class="listing-desc">Lodge-style rooms a short walk from Front Street,
+               with fireplaces and a generous breakfast.</p>
+            <p class="listing-holiday">🎄 Walk to the lights — no parking hassle</p>
+            <address>
+              1208 US Hwy 2, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550100">(509) 555-0100</a>
+            </address>
+            <a class="listing-link" href="https://www.bavarianlodge.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+
+        <article class="listing-card" data-tags="hotel">
+          <div class="photo photo--card photo--snow" role="img"
+               aria-label="Placeholder photo: resort buildings among evergreens">
+            <span>Photo: Icicle Village Resort</span>
+          </div>
+          <div class="listing-body">
+            <h3>Icicle Village Resort</h3>
+            <p class="listing-category">Hotel &middot; US Hwy 2</p>
+            <p class="listing-desc">Full-service resort with rooms, suites, a pool,
+               and a restaurant on site — close to everything.</p>
+            <p class="listing-holiday">🎄 Books out early on festival weekends</p>
+            <address>
+              505 US Hwy 2, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550102">(509) 555-0102</a>
+            </address>
+            <a class="listing-link" href="https://www.iciclevillageresort.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+
+        <article class="listing-card" data-tags="cabin,pet-friendly">
+          <div class="photo photo--card photo--snow" role="img"
+               aria-label="Placeholder photo: a wooden cabin in the snow among trees">
+            <span>Photo: cabin in the pines</span>
+          </div>
+          <div class="listing-body">
+            <h3>Pine River Ranch</h3>
+            <p class="listing-category">Cabins &middot; Icicle Road</p>
+            <p class="listing-desc">Private log cabins on a quiet stretch of the
+               Icicle River, a few minutes' drive from downtown.</p>
+            <p class="listing-holiday">🎄 Wood stoves and snowy river views</p>
+            <address>
+              185 Icicle Rd, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550103">(509) 555-0103</a>
+            </address>
+            <a class="listing-link" href="https://www.pineriverranch.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+
+        <article class="listing-card" data-tags="bnb">
+          <div class="photo photo--card photo--warm" role="img"
+               aria-label="Placeholder photo: a cozy inn porch with wreaths">
+            <span>Photo: inn porch with wreaths</span>
+          </div>
+          <div class="listing-body">
+            <h3>Leavenworth Log Homes &amp; River's Edge Rooms</h3>
+            <p class="listing-category">B&amp;B &middot; East Leavenworth</p>
+            <p class="listing-desc">Quiet bed-and-breakfast rooms with river access,
+               a short drive or bike ride from downtown.</p>
+            <address>
+              9150 Old Highway 2, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550104">(509) 555-0104</a>
+            </address>
+            <a class="listing-link" href="https://www.loghomes.net"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+
+        <article class="listing-card" data-tags="hotel">
+          <div class="photo photo--card photo--lights" role="img"
+               aria-label="Placeholder photo: hotel lobby with a fireplace and garland">
+            <span>Photo: lobby fireplace</span>
+          </div>
+          <div class="listing-body">
+            <h3>Enzian Inn</h3>
+            <p class="listing-category">Hotel &middot; Front Street</p>
+            <p class="listing-desc">Bavarian-style inn right on Front Street with a
+               pool, hot tub, and a daily breakfast.</p>
+            <p class="listing-holiday">🎄 Step out the door into the lights</p>
+            <address>
+              590 US Hwy 2, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550105">(509) 555-0105</a>
+            </address>
+            <a class="listing-link" href="https://www.enzianinn.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+
+        <article class="listing-card" data-tags="cabin">
+          <div class="photo photo--card photo--snow" role="img"
+               aria-label="Placeholder photo: a cabin with warm windows at dusk">
+            <span>Photo: cabin at dusk</span>
+          </div>
+          <div class="listing-body">
+            <h3>Leavenworth Riverport Inn &amp; Cottages</h3>
+            <p class="listing-category">Cabins &middot; Near downtown</p>
+            <p class="listing-desc">Small cottages and inn rooms near the Wenatchee
+               River, an easy walk to Front Street.</p>
+            <address>
+              9173 Old Highway 2, Leavenworth, WA 98826<br>
+              <a href="tel:+15095550106">(509) 555-0106</a>
+            </address>
+            <a class="listing-link" href="https://www.riverportinn.com"
+               rel="noopener noreferrer" target="_blank">Visit website</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="no-results" hidden>No stays match your search. Try a different
+         word, or clear the filters.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="./christmas-festival.html">Christmas Festival</a></li>
+          <li><a href="./ski-resort.html">Ski Resort</a></li>
+          <li><a href="./stay.html">Places to Stay</a></li>
+          <li><a href="./eat.html">Places to Eat</a></li>
+        </ul>
+      </nav>
+      <p>Last updated: October 2026 &middot; Prototype — verify all listings before launch.</p>
+    </div>
+  </footer>
+</body>
+</html>
